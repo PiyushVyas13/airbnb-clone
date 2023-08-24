@@ -1,0 +1,4 @@
+-- AlterTable
+ALTER TABLE "Account" ALTER COLUMN "refresh_token" SET DATA TYPE TEXT,
+ALTER COLUMN "access_token" SET DATA TYPE TEXT,
+ALTER COLUMN "id_token" SET DATA TYPE TEXT;
