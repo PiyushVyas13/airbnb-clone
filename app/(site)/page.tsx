@@ -5,6 +5,7 @@ import ListingCard from "@/app/components/listings/ListingCard";
 import getCurrentUser from "@/app/actions/getCurrentUser";
 
 export const revalidate=0;
+export const dynamic = 'force-dynamic';
 
 interface HomeProps {
     searchParams: ListingParams;
